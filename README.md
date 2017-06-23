@@ -4,7 +4,7 @@
 
 ## 開発環境
 	- electron
-		- HTML
+		- HTML/CSS
 		- JavaScript
 
 ## どのようなものか
