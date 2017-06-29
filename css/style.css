@@ -1,0 +1,79 @@
+html{
+	background-color: #78FF95;
+}
+
+svg{
+	background-color: #FFFFFF;
+}
+
+#button_1{
+	position: absolute;
+	top: 256px;
+	left: 150px;
+}
+
+#button_2{
+	position: absolute;
+	top: 256px;
+	left: 320px;
+}
+
+#button_3{
+	position: absolute;
+	top: 256px;
+	left: 480px;
+}
+
+#button_4{
+	position: absolute;
+	top: 400px;
+	left: 150px;
+}
+
+#button_5{
+	position: absolute;
+	top: 400px;
+	left: 320px;
+}
+
+#button_6{
+	position: absolute;
+	top: 400px;
+	left: 480px;
+}
+
+#img_1{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+
+#img_2{
+	position: absolute;
+	top: 150px;
+	left: 269px;
+}
+
+#img_3{
+	position: absolute;
+	top: 150px;
+	left: 431px;
+}
+
+#img_4{
+	position: absolute;
+	top: 294px;
+	left: 100px;
+}
+
+#img_5{
+	position: absolute;
+	top: 294px;
+	left: 269px;
+}
+
+#img_6{
+	position: absolute;
+	top: 294px;
+	left: 431px;
+}
