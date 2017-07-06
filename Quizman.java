@@ -1,22 +1,15 @@
-class Quizman{
+class QuizMan{
 	// data
-	int num_Ans = 1;
-	String msg1 = "正解！";
-	String msg2 = "ハズレ";
+	int num_Answer = 11;	// 正解の数値
 
 	// method
-	public void answer(){
-		System.out.println("test");
-
-		/*
-		// 入力内容と正解の数が一致していたら
-		if( num == num_Ans ){
-			System.out.println( msg1 );
-
-		// そうでない場合は
+	// 入力した内容を持ってきて、正解かどうかを判定する
+	public boolean judge( int get_Answer ){
+		// 正解かどうかを判定する
+		if( get_Answer == num_Answer ){
+			return true;
 		} else {
-			System.out.println( msg2 );
+			return false;
 		}
-		*/
 	}
 }
