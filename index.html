@@ -5,22 +5,56 @@
 		<title>自動販売機</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/d3.v4.min.js" charset="utf-8"></script>
+		<script src="js/script.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<h1>自動販売機</h1>
 		<div id="vending"></div>
-		<button id="button_1">A</button>
-		<button id="button_2">B</button>
-		<button id="button_3">C</button>
-		<button id="button_4">D</button>
-		<button id="button_5">E</button>
-		<button id="button_6">F</button>
+		<input type="button" id="button_1" value="A" onClick="button_1()">
+		<input type="button" id="button_2"  value="B" onClick="button_2()">
+		<input type="button" id="button_3" value="C" onClick="button_3()">
+		<input type="button" id="button_4" value="D" onClick="button_4()">
+		<input type="button" id="button_5" value="E" onClick="button_5()">
+		<input type="button" id="button_6" value="F" onClick="button_6()">
 		<img id="img_1" src="img/temp.png">
 		<img id="img_2" src="img/temp.png">
 		<img id="img_3" src="img/temp.png">
 		<img id="img_4" src="img/temp.png">
 		<img id="img_5" src="img/temp.png">
 		<img id="img_6" src="img/temp.png">
-		<script src="js/script.js"></script>
+
+		<!-- 自動販売機の見た目を生成 -->
+		<script src="js/view.js" type="text/javascript"></script>
+
+		<!-- 音声の設定 -->
+		<audio id="sound_1" preload="auto">
+			<source src="sound/mp3/sound_1.mp3" type="audio/mp3">
+			<source src="sound/wav/sound_1.wav" type="audio/wav">
+		</audio>
+
+		<audio id="sound_2" preload="auto">
+			<source src="sound/mp3/sound_2.mp3" type="audio/mp3">
+			<source src="sound/wav/sound_2.wav" type="audio/wav">
+		</audio>
+
+		<audio id="sound_3" preload="auto">
+			<source src="sound/mp3/sound_3.mp3" type="audio/mp3">
+			<source src="sound/wav/sound_3.wav" type="audio/wav">
+		</audio>
+
+		<audio id="sound_4" preload="auto">
+			<source src="sound/mp3/sound_4.mp3" type="audio/mp3">
+			<source src="sound/wav/sound_4.wav" type="audio/wav">
+		</audio>
+
+		<audio id="sound_5" preload="auto">
+			<source src="sound/mp3/sound_5.mp3" type="audio/mp3">
+			<source src="sound/wav/sound_5.wav" type="audio/wav">
+		</audio>
+
+		<audio id="sound_6" preload="auto">
+			<source src="sound/mp3/sound_6.mp3" type="audio/mp3">
+			<source src="sound/wav/sound_6.wav" type="audio/wav">
+		</audio>
 	</body>
 </html>
