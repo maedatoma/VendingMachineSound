@@ -5,6 +5,7 @@
 ## 開発環境
 	- electron
 		- HTML/CSS
+			- UI には CSV を使用
 		- JavaScript
 
 ## branch の命名ルール
